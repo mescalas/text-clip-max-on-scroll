@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    position: relative;
+    height: 200vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.stickyMask {
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    mask-image: url('public/medias/jordan.svg');
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: 20%;
+}
+
+.stickyMask video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 5rem;
+    font-weight: 200;
+    text-align: center;
+}
